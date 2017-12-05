@@ -39,3 +39,5 @@ func parseOutput(outs []byte) {
 	//b := []byte(fmt.Sprintf("node_lvs_precent_used{instance=\"data\", type=\"thinpool\", pool=\"%v\"} %v\n", lvmname, data))
 	//ioutil.WriteFile("output.txt", b, 0644)
 }
+
+// https://nathanleclaire.com/blog/2014/12/29/shelled-out-commands-in-golang/
